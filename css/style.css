@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #e76f51;
+  --secondary-color: #000000;
+  --tertiary-color: #383838;
+  --white-color: #ffffff;
+}
+:active,
+:focus,
+:hover {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+.text-tertiary {
+  color: var(--tertiary-color);
+}
+
+.btn {
+  height: 4rem;
+  padding: 1rem 3.1255rem;
+  color: var(--white-color);
+  font-weight: 500;
+  background-color: var(--primary-color);
+}
+.btn:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.border-primary {
+  border-color: var(--primary-color) !important;
+}
+.wrapper {
+  padding-bottom: 8.125rem;
+}
+
+.nav-item {
+  margin-right: 2.25rem;
+  font-size: 1.25rem;
+}
+.bz-control-prev-icon,
+.bz-control-next-icon {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+.sliders-banner {
+  margin-top: 3.125rem;
+  background: rgba(231, 111, 81, 0.1);
+  border-radius: 5px;
+  padding: 3.125rem;
+}
+
+.read-btn {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: var(--white-color);
+}
